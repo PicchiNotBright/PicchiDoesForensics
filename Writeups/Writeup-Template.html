@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Writeup - Challenge Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #161b22;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+        }
+
+        .home-link a {
+            color: #50fa7b;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+        }
+
+        .nav-links a {
+            color: #c9d1d9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #50fa7b;
+        }
+
+        main {
+            max-width: 66%;
+            margin: 3rem auto;
+            background-color: #161b22;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 255, 100, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #50fa7b;
+        }
+
+        code, pre {
+            background-color: #0d1117;
+            color: #9aff9a;
+            padding: 0.5rem;
+            border-radius: 5px;
+            display: block;
+            overflow-x: auto;
+        }
+
+        hr {
+            border: 1px solid #2ea043;
+            margin: 2rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #8b949e;
+            font-size: 0.9rem;
+            border-top: 1px solid #21262d;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="home-link"><a href="index.html">Home</a></div>
+        <ul class="nav-links">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="writeups.html">Writeups</a></li>
+            <li><a href="tools.html">Tools & Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Challenge Name</h1>
+        <h3>Category: Forensics | Difficulty: Medium | Event: CyberQuest 2025</h3>
+
+        <hr>
+
+        <h2>🧩 Challenge Description</h2>
+        <p>
+            This is where you’ll paste or summarize the challenge prompt.
+            Example: “We found a strange packet capture — can you find the hidden flag?”
+        </p>
+
+        <h2>🔍 Steps / Solution</h2>
+        <p>Explain your thought process step by step. Include code snippets, screenshots, and reasoning here.</p>
+
+        <pre><code># Example commands
+tshark -r capture.pcap | grep suspicious
+strings image.jpg | grep "flag"
+        </code></pre>
+
+        <h2>🏁 Flag</h2>
+        <p><strong>flag{example_flag_here}</strong></p>
+    </main>
+
+    <footer>
+        &copy; 2025 Your Name — Digital Forensics Blog
+    </footer>
+</body>
+</html>
